@@ -1,0 +1,23 @@
+body{
+    background-color: #03012C;
+}
+.container{
+    background-color: #190E4F;
+    display: grid;
+    grid-template-columns: repeat(4, 15vh);
+    grid-template-rows: repeat(6, 8vh);
+}
+.active{
+    grid-column-start: 1;
+    grid-column-end:5;
+}
+.zero{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.active{
+    font-size: 8vh;
+    color: #fefcfd;
+    display: flex;
+    justify-content: end;
+}
