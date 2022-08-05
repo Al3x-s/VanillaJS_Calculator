@@ -1,8 +1,7 @@
-let first_val = 0
+let first_val;
 let second_val;
 let action;
 
-document.getElementById("active").innerText = first_val
 
 function calc(id){
     let val = parseInt(id)
