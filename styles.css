@@ -21,3 +21,6 @@ body{
     display: flex;
     justify-content: end;
 }
+.alert__container{
+    color:#fefcfd
+}
